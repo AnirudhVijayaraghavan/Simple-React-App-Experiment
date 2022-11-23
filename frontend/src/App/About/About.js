@@ -20,15 +20,15 @@ const About = () => {
       <Navbar />
       <PageCard
         title={"About Page"}
-        desc={
-          "About page."
-        }
+        // desc={
+        //   "About page."
+        // }
       />
-      <div className={classes.cardContainer}>
+      {/* <div className={classes.cardContainer}>
         {users.map((element) => (
           <UserCard email={element.email} />
         ))}
-      </div>
+      </div> */}
     </div>
   );
 };

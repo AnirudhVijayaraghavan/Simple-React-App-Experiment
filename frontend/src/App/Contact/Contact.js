@@ -8,9 +8,7 @@ const Contact = () => {
       <Navbar />
       <PageCard
         title={"Contact Page"}
-        desc={
-          "Contact page."
-        }
+        
       />
     </div>
   );

@@ -14,11 +14,13 @@
 }
 
 .Submit {
-  background-color: teal;
-  border: none;
+  background-color: black;
+  border: dotted;
   color: white;
-  padding: 10px 0;
   font-size: 18px;
-  width: 30%;
-  margin-top: 30px;
+  width: 10%;
+}
+
+body {
+  background-color: red;
 }

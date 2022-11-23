@@ -34,12 +34,12 @@ const Home = () => {
   return (
     <div>
       <Navbar />
-      <PageCard
+      {/* <PageCard
         title={"Home Page"}
         desc={
           "Home page."
         }
-      />
+      /> */}
       <div className={classes.inputContainer}>
         <input
           className={classes.Input}
