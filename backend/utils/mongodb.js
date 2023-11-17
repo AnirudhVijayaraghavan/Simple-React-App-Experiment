@@ -1,8 +1,9 @@
 import mongoose from "mongoose";
+const newmongooseconnect = "mongodb+srv://Anirudhv1997:admin123@cluster0.kapz18z.mongodb.net/?retryWrites=true&w=majority";
 
 const dbConnect = () =>
   mongoose
-    .connect(process.env.MONGODB_URL)
+    .connect(newmongooseconnect)
     .then(() => {
       console.log("Database connection successful");
     })
